@@ -1,0 +1,113 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    min-height: 50px;
+}
+
+footer {
+    min-height: 50px;
+
+}
+
+/* The article fills all the space between header & footer */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    flex: 1;
+}
+
+
+footer {
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(85, 80, 80);
+}
+
+/* DIV LEFT */
+.contact-info {
+    width: 15rem;
+    padding-top: 0.7rem;
+}
+
+/* DIV MIDDLE */
+.ikoncontainer {
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+/* DIV RIGHT */
+.nyhetsbrev {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    white-space: none;
+}
+
+input {
+
+    margin-top: 0.2rem;
+    width: 15rem;
+}
+
+/* BLUE CIRCLES START */
+.facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: rgb(145, 145, 238);
+}
+
+.twitter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: rgb(145, 145, 238);
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: rgb(145, 145, 238);
+}
+
+.youtube {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: rgb(145, 145, 238);
+}
+
+/* BLUE CIRCLES END */
+@media screen and (max-width: 840px) {
+
+    footer {
+        flex-direction: column;
+    }
+
+}

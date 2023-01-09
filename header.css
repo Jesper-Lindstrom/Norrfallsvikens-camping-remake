@@ -1,0 +1,35 @@
+.hero-image {
+    display: flex;
+    justify-content: center;
+    background-image: url("/images/hamnen.png");
+    height: 50vh;
+    width: 100%;
+    background-position: 27% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1rem;
+}
+
+
+.btn {
+    white-space: nowrap;
+}
+
+.knappcontainer {
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 769px) {
+
+    .knappcontainer {
+        flex-direction: column;
+        gap: 1rem;
+        width: 80%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+}

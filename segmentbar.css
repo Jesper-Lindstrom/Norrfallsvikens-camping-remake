@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    font-size: 12;
+}
+
+.segment-bar {
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0.00px 4.00px 10px 0px rgba(0, 0, 0, 0.6);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.segment-logo {
+    color: navy;
+}
+
+.segment-bar-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.lang-logo {
+    width: 1.5rem;
+    border-radius: 50%;
+}
+
+.logo-4 h3 {
+    color: navy;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 0.65;
+    font-family: 'Lobster', cursive;
+}
+
+
+.logo-holder {
+    text-align: center;
+
+
+}
+
+
+
+.logo-4 p {
+    margin-bottom: 0.2rem;
+    font-size: 16px;
+    color: #060606;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: 'Mansalva', cursive;
+}
+
+@media screen and (max-width: 568px) {
+
+    .lang-logo {
+        display: none;
+    }
+
+    button {
+        display: none;
+    }
+
+    .segment-bar {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+}
+
+@media (max-width:375) {
+    .segment-bar {
+        padding-left: 0.5rem;
+    }
+    .logo-4 h3 {
+        color: navy;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 0.65;
+        font-family: 'Lobster', cursive;
+    }
+}
