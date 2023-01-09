@@ -1,7 +1,7 @@
 .hero-image {
     display: flex;
     justify-content: center;
-    background-image: url("/images/hamnen.png");
+    background-image: url("./images/hamnen.png");
     height: 50vh;
     width: 100%;
     background-position: 27% 50%;
